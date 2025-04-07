@@ -16,8 +16,9 @@ func set_data(x int) {
 }
 
 func main() {
-	panic("crash")
+	//panic("crash")
 
+	// recover 使用，它可以让程序在发生宕机后起死回生，但必须在defer中调用
 	set_data(20)
 
 	// 如果能执行到这句，说明panic被捕获了
