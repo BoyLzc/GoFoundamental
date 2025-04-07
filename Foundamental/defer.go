@@ -37,4 +37,6 @@ func main() {
 		name = "python"
 		fmt.Println(name) // 输出: python*/
 
+	// demo4
+
 }
