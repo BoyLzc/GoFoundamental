@@ -39,6 +39,4 @@ func main() {
 			fmt.Println("end")*/
 	//fmt.Println("lzzc")
 
-	// demo5
-	// demo6
 }

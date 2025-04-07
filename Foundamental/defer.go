@@ -36,7 +36,12 @@ func main() {
 		}()
 		name = "python"
 		fmt.Println(name) // 输出: python*/
-
 	// demo4
+	myname := myfunc()
+	fmt.Printf("main 函数里的name: %s\n", name)
+	// defer 在 return 后调用
+	fmt.Println("main 函数里的myname: ", myname)
+
+	//
 
 }
