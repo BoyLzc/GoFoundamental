@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// demo1
 	/*		goto flag
@@ -37,5 +39,6 @@ func main() {
 			fmt.Println(say)
 		flag:
 			fmt.Println("end")*/
+	fmt.Println("lzzc")
 
 }
