@@ -37,10 +37,10 @@ func main() {
 		name = "python"
 		fmt.Println(name) // 输出: python*/
 
-	myname := myfunc()
-	fmt.Printf("main 函数里的name: %s\n", name)
-	fmt.Println("main 函数里的myname: ", myname)
-
-	fmt.Println("我是阳痿，我是懒狗，我为自己代言！哦耶！")
+	//myname := myfunc()
+	//fmt.Printf("main 函数里的name: %s\n", name)
+	//fmt.Println("main 函数里的myname: ", myname)
+	//
+	//fmt.Println("我是阳痿，我是懒狗，我为自己代言！哦耶！")
 
 }
