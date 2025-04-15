@@ -2,15 +2,7 @@ package main
 
 import (
 	"fmt"
-<<<<<<< HEAD
-<<<<<<< HEAD
 	"sync"
-=======
-	//"time"
->>>>>>> f208e27996a553baa224bac3e753deed5b11c91f
-=======
-	//"time"
->>>>>>> c407bbab280455c56d69b21dbdd364016525049b
 )
 
 // 定义只写信道类型
@@ -41,8 +33,6 @@ func increment(ch chan bool, x *int) {
 	<-ch
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 func worker(x int, wg *sync.WaitGroup) {
 	defer wg.Done()
 	for i := 0; i < 5; i++ {
@@ -50,10 +40,6 @@ func worker(x int, wg *sync.WaitGroup) {
 	}
 }
 
-=======
->>>>>>> f208e27996a553baa224bac3e753deed5b11c91f
-=======
->>>>>>> c407bbab280455c56d69b21dbdd364016525049b
 // 信道就是一个管道，连接多个goroutine程序 是一种队列式的数据结构，遵循先进先出的规则
 func main() {
 	// demo1
@@ -147,8 +133,6 @@ func main() {
 		fmt.Printf("打印 aslice: %v \n", aslice)
 		fmt.Printf("打印 bslice: %v \n", bslice)*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	// demo 8
 	/*	done := make(chan bool)
 		go func() {
@@ -173,8 +157,5 @@ func main() {
 	go worker(2, &wg)
 
 	wg.Wait()
-=======
->>>>>>> f208e27996a553baa224bac3e753deed5b11c91f
-=======
->>>>>>> c407bbab280455c56d69b21dbdd364016525049b
+
 }
